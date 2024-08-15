@@ -1,0 +1,99 @@
+/* Overall product page styling */
+.product-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-page h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Product list layout */
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Category-header h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Individual product card styling */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image styling */
+.product-image {
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Auto height to maintain aspect ratio */
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+/* Product title styling */
+.product-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Product price styling */
+.product-cost {
+    font-size: 1.2em;
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Product description styling */
+.product-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Sale badge styling */
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Product button styling */
+.product-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #45a049;
+}

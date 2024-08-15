@@ -1,0 +1,80 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px;
+}
+
+/* Left section (logo and title) */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-title h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: white;
+}
+
+.navbar-title p {
+    font-size: 0.8em;
+    margin: 0;
+    color: #ddd;
+}
+
+.navbar-title a {
+    text-decoration: none;
+}
+
+
+
+/* Center section (menu item) */
+.navbar-center {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-link {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Right section (cart) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: white;
+    color: #4CAF50;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    font-weight: bold;
+}

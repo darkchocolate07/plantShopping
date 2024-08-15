@@ -1,0 +1,90 @@
+/* General styling for the header container */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Background image */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: blur(10px);
+}
+
+/* Dark overlay to enhance text readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% opacity black overlay */
+    z-index: 2;
+}
+
+/* Content styling */
+.content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white; /* White text for readability */
+}
+
+/* Left header styling */
+.left-header {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.left-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.left-header p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.left-header button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.left-header button:hover {
+    background-color: #0e3f10;
+}
+
+/* Right header styling */
+.right-header {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.right-header p {
+    margin-bottom: 20px;
+}
+
+.right-header section {
+    font-size: 0.8em;
+    line-height: 1.6;
+    text-align: left;
+}
+
